@@ -1,0 +1,10 @@
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo sinofseven
+      - run: echo "::add-mask::sinofseven"
+      - run: echo sinofseven
