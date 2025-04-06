@@ -11,5 +11,6 @@ jobs:
       - run: echo sinofseven
       - run: |
           echo "::add-mask::sinofseven"
+          echo "::add-mask::${{ secrets.XXXX }}"
           echo sinofseven
       - run: echo sinofseven
