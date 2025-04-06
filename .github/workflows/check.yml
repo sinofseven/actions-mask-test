@@ -9,5 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo sinofseven
-      - run: echo "::add-mask::sinofseven"
+      - run: |
+          echo "::add-mask::sinofseven"
+          echo sinofseven
       - run: echo sinofseven
