@@ -1,6 +1,9 @@
 on:
   push:
 
+env:
+  AAAA: sinofseven
+
 jobs:
   test:
     runs-on: ubuntu-latest
